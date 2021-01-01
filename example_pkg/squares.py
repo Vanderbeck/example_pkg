@@ -27,7 +27,7 @@ class Squares(object):
         try:
             n = float(n)
         except:
-            e="The value provided must be a number"
-            return e
+            self.s="The value provided must be a number"
+            return
         # If n can be an number, square it.
         self.s = n*n
