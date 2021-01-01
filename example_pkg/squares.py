@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 # A Simple but useless program
-import numpy
 
 class Squares(object):
     """docstring for Squares."""
