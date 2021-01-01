@@ -32,4 +32,3 @@ class Squares(object):
             return e
         # If n can be an number, square it.
         self.s = n*n
-        return s

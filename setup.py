@@ -14,7 +14,7 @@ setuptools.setup(
     url="https://github.com/Vanderbeck/example_pkg.git",
     packages=setuptools.find_packages(),
     install_requires=[
-          'numpy',
+          'numpy'
       ],
     classifiers=[
         "Programming Language :: Python :: 3",
