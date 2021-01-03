@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-# A Simple but useless program
+# A Simple program to square a user provided number
+import regex #imported to test .deb dependancy handling.
 
 class Squares(object):
     """docstring for Squares."""

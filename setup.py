@@ -13,15 +13,15 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/Vanderbeck/example_pkg.git",
     packages=setuptools.find_packages(),
-    # install_requires=[
-    #       'numpy'
-    #   ],
+    install_requires=[
+          'regex'
+      ],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
         "Operating System :: POSIX :: Linux",
     ],
-    # python_requires='>=3.5',
+    python_requires='>=3.5',
     # entry_points = {
     #     'console_scripts' : ['example_pkg = myscript.myscript:main']
     # },

@@ -36,6 +36,13 @@ pip install example_pkg_vanderbeck-0.0.1-py3-none-any.whl # To install locally
 
 **Commands I learned**
 ```
-# python3-all dependancy
-python3 setup.py --command-packages=stdeb.command bdist_deb
+sudo apt install python3-stdeb fakeroot python3-all         # To install
+python3 setup.py --command-packages=stdeb.command bdist_deb # To compile
+dpkg -i python3-example-pkg-vanderbeck_0.0.1-1_all.deb      # To intsall
+sudo apt install ./name.deb                                 # To install with deps
 ```
+
+
+## Future Reading
+
+https://github.com/urban48/debpackager
