@@ -19,7 +19,7 @@ python3 setup.py sdist bdist_wheel                        # To compile
 pip install example_pkg_vanderbeck-0.0.1-py3-none-any.whl # To install locally
 ```
 
-##Deb Packaging
+## Deb Packaging
 **Links**
 
 [The easy setuptools method](https://stackoverflow.com/questions/17401381/debianzing-a-python-program-to-get-a-deb)
@@ -29,7 +29,9 @@ pip install example_pkg_vanderbeck-0.0.1-py3-none-any.whl # To install locally
 [Great dpkg creation article](https://www.devdungeon.com/content/debian-package-tutorial-dpkgdeb#toc-2)
 
 **Debian wesite**
+
 [Python](https://wiki.debian.org/Python)
+
 [Packaging policy](https://wiki.debian.org/Python/LibraryStyleGuide?action=show&redirect=Python%2FPackaging#Style_Guide_for_Packaging_Python_Libraries)
 
 **Commands I learned**
