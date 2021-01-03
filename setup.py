@@ -21,5 +21,8 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: POSIX :: Linux",
     ],
-    python_requires='>=3.5',
+    # python_requires='>=3.5',
+    # entry_points = {
+    #     'console_scripts' : ['example_pkg = myscript.myscript:main']
+    # },
 )

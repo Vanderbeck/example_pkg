@@ -1,3 +1,6 @@
 build/
 dist/
 example_pkg_vanderbeck.*
+deb_dist/*
+!deb_dist/*.deb
+*.gz

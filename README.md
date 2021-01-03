@@ -7,9 +7,10 @@ non-standard library which is usually installed via pip.
 
 ## Python packaging
 **links**
-https://docs.python.org/3/distributing/index.html#distributing-index
-https://packaging.python.org/tutorials/packaging-projects/
-https://packaging.python.org/tutorials/packaging-projects/#packaging-your-project
+
+[Intro to python packaging](https://docs.python.org/3/distributing/index.html#distributing-index)
+
+[The meat of the process](https://packaging.python.org/tutorials/packaging-projects/)
 
 **Commands I Learned**
 ```
@@ -19,4 +20,20 @@ pip install example_pkg_vanderbeck-0.0.1-py3-none-any.whl # To install locally
 ```
 
 ##Deb Packaging
-https://stackoverflow.com/questions/7110604/is-there-a-standard-way-to-create-debian-packages-for-distributing-python-progra
+**Links**
+
+[The easy setuptools method](https://stackoverflow.com/questions/17401381/debianzing-a-python-program-to-get-a-deb)
+
+[More involved with debhelper and pybuild](https://www.geekyhacker.com/2016/05/19/how-to-create-debian-package-for-python-script/)
+
+[Great dpkg creation article](https://www.devdungeon.com/content/debian-package-tutorial-dpkgdeb#toc-2)
+
+**Debian wesite**
+[Python](https://wiki.debian.org/Python)
+[Packaging policy](https://wiki.debian.org/Python/LibraryStyleGuide?action=show&redirect=Python%2FPackaging#Style_Guide_for_Packaging_Python_Libraries)
+
+**Commands I learned**
+```
+# python3-all dependancy
+python3 setup.py --command-packages=stdeb.command bdist_deb
+```
